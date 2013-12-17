@@ -1,4 +1,4 @@
-ProjectEuler
+Project Euler
 ============
 
-Project Euler problems
+Project Euler problems done in C
