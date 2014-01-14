@@ -43,6 +43,5 @@ int main() {
         }
     }
 
-    printf("The largest palindrome made from the product of two three-digit ");
-    printf("numbers is %d.\n", result);
+    printf("%d\n", result);
 }

@@ -20,6 +20,5 @@ int main() {
         prev2 = current;
     }
 
-    printf("The sum of the even-valued terms in the Fibonacci sequence ");
-    printf("up to 4000000 is %d.\n", sum);
+    printf("%d\n", sum);
 }

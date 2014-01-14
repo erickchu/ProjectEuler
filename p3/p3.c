@@ -6,17 +6,14 @@
 #include <stdio.h>
 
 int main() {
-    int i = 2;
+    int primeFactor = 2;
     long long int number = 600851475143;
-    
-    long long int value = number;
-    while (value > i) {
-        if (value % i == 0) {
-//            printf("%d,", i);
-            value = value / i;
+    while (number > primeFactor) {
+        if (number % primeFactor == 0) {
+            number = number / primeFactor;
         }
-        i++;
+        primeFactor++;
     }
 
-    printf("The largest prime factor of %lld is %d.\n", number, i);
+    printf("%d\n", primeFactor);
 }

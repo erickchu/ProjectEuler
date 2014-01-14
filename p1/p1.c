@@ -12,5 +12,5 @@ int main() {
         if (i % 3 == 0 || i % 5 == 0)
             sum += i;
 
-    printf("The sum of all the multiples of 3 or 5 below 1000 is %d.\n", sum);
+    printf("%d\n", sum);
 }
