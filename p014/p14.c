@@ -21,7 +21,7 @@ int main() {
     int longestChain = 1, answer = 1;
     int i, currentChain;
     unsigned long currentNum; // ints are not large enough to store certain
-                              // terms in the sequence starting at 113383
+                              // terms in some sequences
     for (i = 1; i < NUMBERS; i++) {
         currentNum = i;
         currentChain = 1;
